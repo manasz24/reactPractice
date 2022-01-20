@@ -1,0 +1,38 @@
+var Employee={
+    age:42,
+    getAge:function()
+    {
+        return this.age
+        //return 10;
+    }
+  }
+  var user=
+  {
+      firstName:"Vaishali",
+      sayHi: function()
+      {
+              console.log( "Welcome :"+ this.firstName);
+      }
+  }
+  
+  //----------------------------
+  //console.log(" Age : "+Employee.age)//42
+  //console.log("  Age Using getAge() : "+Employee.getAge());//42
+  console.log("  Age Using getAge() : "+Employee.getAge);//return function  ref
+  const showMyAge=Employee.getAge;
+  console.log("  Type of showMyAge() : "+typeof(showMyAge));
+  console.log("  Age Using showMyAge() : "+showMyAge());
+  //...........................
+  var   boundedAge=showMyAge.bind(Employee)
+  console.log("  Type of boundedAge() : "+typeof(boundedAge));
+  console.log("  Age Using boundedAge() : "+boundedAge());
+  
+  //----------------------------
+  
+  setTimeout((user.sayHi).bind(user),3000);
+  
+  
+  
+  
+  
+  
