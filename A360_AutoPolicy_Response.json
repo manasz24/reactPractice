@@ -1,0 +1,74 @@
+{"policies": [{
+   "policyNumber": "A7115651310",
+   "accountNumber": "427367995",
+   "policySource": "Agent360",
+   "lineOfBusiness": "A",
+   "insurerCompanyCode": "14",
+   "termID": "1",
+   "policyStatusCode": "E",
+   "policyStateCode": "PA",
+   "policyStatus": "E",
+   "termStartDate": "12/30/2019",
+   "termEndDate": "10/19/2021",
+   "inceptionDate": "12/30/2019",
+   "affinityType": "unaffiliated",
+   "agentOfRecordId": "J055526",
+   "policyTransactionId": "12345678",
+   "policyType": "Auto",
+   "addresses": [   {
+      "addressType": "Mailing",
+      "streetAddress1": "1 Benbrooke Pl",
+      "city": "Butler",
+      "state": "PA",
+      "zip": "16001-1739",
+      "country": "US"
+   }],
+   "vehicles": [   {
+      "number": "1",
+      "vehicleYear": "2001",
+      "vehicleMake": "LEXUS",
+      "vehicleModel": "IS",
+      "vin": "JTHBD182610032265",
+      "address": {}
+   }],
+   "drivers": [{"name":    {
+      "firstName": "FNAMEDTRO",
+      "lastName": "BRAGDON"
+   }}],
+   "insureds": [   {
+      "name":       {
+         "firstName": "FNAMEDTRO",
+         "lastName": "BRAGDON"
+      },
+      "legalNames": [],
+      "phoneNumbers": [{"phoneNumber": "8888888888"}],
+      "emailAddresses": [      {
+         "emailAddress": "mohammed.arsath@cognizant.com",
+         "emailType": "Primary"
+      }],
+      "roleType": "PolicyPriNamedInsured",
+      "birthDate": "02/02/1962"
+   }],
+   "agents": [   {
+      "agentOfRecordId": "J055526",
+      "name":       {
+         "firstName": "IWGBTTM",
+         "lastName": "URUMBCX"
+      },
+      "addresses": [      {
+         "addressType": "Business",
+         "streetAddress1": "220 OLSSVQVYQA IESURI",
+         "city": "IMOVAFEK",
+         "state": "PA",
+         "country": "US"
+      }],
+      "agentTypeCode": "pcs",
+      "faxNumber": "5416016892",
+      "phoneNumbers": [      {
+         "phoneNumber": "5416016892",
+         "phoneType": "Work"
+      }],
+      "emailAddresses": [{}],
+      "servicingAgent": "true"
+   }]
+}]}

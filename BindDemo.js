@@ -1,3 +1,4 @@
+//Bind Demo
 var Employee={
     age:42,
     per:56,
